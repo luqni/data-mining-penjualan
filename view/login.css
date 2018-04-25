@@ -1,0 +1,108 @@
+body {
+	background:url("images/bg.jpg") repeat-x #cecece;
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+	font-size: 19px;
+	color: #000;
+}
+
+a {
+  	text-decoration: none;
+  	color: red;
+}
+
+a:hover{
+  	text-decoration: none;
+  	color: #000;
+}
+
+.level {
+	margin: 0px 0px 1px 2px; 
+	border:1px solid #adacac;
+	color: red;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:22px;
+	padding:3px 5px;
+	background: #FFFFFF;
+	outline:none;
+	width: 194%;
+}
+
+#login {
+	width: 340px;
+	margin: 180px auto 0;
+	margin-top: 6%;
+	padding: 25px; 
+	background-color:#fff;
+	border:1px solid #cecece;
+
+}
+
+.fieldContainer{
+	padding:0px 0px 0px 25px;
+	margin-bottom:7px;
+}
+
+.formRow{
+	height:33px;
+	padding:10px;
+	position:relative;	
+}
+
+.label{
+	float:left;
+	padding:0 20px 0 0;
+	text-align:right;
+	width:70px;
+	color:#000;
+}
+
+label{
+	font-size:11px;
+	letter-spacing:1px;
+	line-height:35px;
+	color:#000;
+}
+
+.field{
+	float:left;
+		margin-bottom: 10px; 
+}
+
+.field input{
+	margin: 0px 0px 0px 2px; 
+	border:1px solid #000;
+	color: #000;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:22px;
+	padding:3px 5px;
+	background: #FFFFFF;
+	outline:none;
+	width: 100%;
+}
+
+.signupButton{
+	/* The submit button container */
+	text-align:center;
+	padding:20px 0 10px;
+}
+
+#submit{
+	/* The submit button */
+padding:10px 35px 10px 35px;
+}
+
+input:hover,
+input:focus{
+}
+
+h1,h2,h3,h4,h5 {
+	color: #000;
+	font-size: 40px;
+	font-family:Century Gothic,Myriad Pro,Arial,Helvetica,sans-serif;
+	text-align: center;
+	margin-top:0px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #cecece;
+}

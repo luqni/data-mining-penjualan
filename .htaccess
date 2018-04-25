@@ -1,0 +1,15 @@
+RewriteEngine on
+
+RewriteRule ^home$ media.php?module=home [L]
+RewriteRule ^semua-data\.html$ media.php?module=semuadata&id=$1 [L]
+RewriteRule ^perhitungan\.html$ media.php?module=perhitungan&id=$1 [L]
+RewriteRule ^data-mining\.html$ media.php?module=datamining&id=$1 [L]
+RewriteRule ^pohon-keputusan\.html$ media.php?module=pohonkeputusan&id=$1 [L]
+RewriteRule ^hapus-pohon\.html$ media.php?module=hapuspohon&id=$1 [L]
+RewriteRule ^hapus-perhitungan\.html$ media.php?module=hapusperhitungan&id=$1 [L]
+RewriteRule ^input-data\.html$ media.php?module=inputdata&id=$1 [L]
+RewriteRule ^simpan-data\.html$ media.php?module=simpandata&id=$1 [L]
+RewriteRule ^edit-data-(.*)\.html$ media.php?module=editdata&id=$1 [L]
+RewriteRule ^hapus-data-(.*)\.html$ media.php?module=hapusdata&id=$1 [L]
+RewriteRule ^simpan-edit-data\.html$ media.php?module=simpanedit&id=$1 [L]
+Options All -Indexes

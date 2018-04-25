@@ -1,0 +1,331 @@
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: "Trebuchet MS", Verdana, Helvetica, Arial;
+	font-size: 12px;
+	color: #000000;
+	background: #cecece;
+}
+a:link, a:visited { color: #000; text-decoration: none} 
+a:active, a:hover { color: #008800; text-decoration: underline}
+
+pad table {
+	padding: 3em;
+	-moz-border-radius:6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	font-size:12px;
+	background-color:#fff;
+	border:1pt solid #999999;
+}
+
+#container_wrapper {
+	background: url(images/side_bg.gif) repeat-x;
+	margin-left:8%;
+	margin-right:8%;
+}
+#container {
+	width: 100%;
+	margin: 0px auto;
+	background: #fff;
+
+}
+#top {
+	clear: left;
+	height: 30px;
+	padding-top: 0px;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #1b1b1b;
+}
+#header {
+	clear: left;
+	height: 100px;
+	text-align: center;
+	background: green;
+}
+#inner_header {
+	height: 190px;
+	color:#fff;
+	padding-top:40px;
+	font-size:40px;
+	background: url(images/header-admin.jpg) no-repeat center center;
+}
+#left_column {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#footer {
+	clear: both;
+	padding-top: 25px;
+	height: 140px;
+	text-align: center;
+	font-size: 11px;
+	background: #06590d;
+	color: #000;
+	border-top:1px solid #000;
+}
+#footer a {
+	color: #666666;
+}
+#site_title {
+	padding-top: 65px;
+	font-weight: bold;
+	font-size: 32px;
+	color: #FFFFFF;
+}
+#site_slogan {
+	padding-top: 14px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #fff;
+}
+#sub-barang{
+	margin-left: 13px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	text-align:center;
+	padding:10px;
+	width:145px;
+	float: left;
+	background: #fff;
+	border:1px solid #e3e3e3;	
+}
+
+#sub-barangg{
+	margin-left: 13px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	text-align:center;
+	padding:10px;
+	width:205px;
+	float: left;
+	background: #fff;
+	border:1px solid #e3e3e3;	
+}
+
+.button11 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#3d3a3d;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+	margin-bottom: 5px;
+}.button11:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+	}
+
+.gambar {
+	width:136px; 
+	height:95px;
+}
+.gambarr {
+	width:196px; 
+	height:110px;
+	margin-top: -14px;
+}
+
+.cpojer-links a  {
+	display: inline-block;
+	padding: 6px 30px 6px 28px;
+	outline: 0;
+	color: #fff;
+}
+.cpojer-links a:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+.daftar{
+	background: #e3e3e3;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px 5px 10px;
+	margin : 9px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #a9aaaa;
+}
+
+.daftar a{
+	color: #fff;
+		text-decoration: none;
+}
+
+.submit_buy{
+	text-align: center;
+	background: #efefef;
+	border-left: 1px dashed #fff;
+	border-bottom: 1px dashed #fff;
+	border-right: 1px dashed #fff;
+	padding: 5px;
+	margin-top: 1px;
+	border:1pt dotted #a2a4a7;
+}
+
+.submit_buy:hover{
+	text-align: center;
+	background: #fff;
+	color: #000;
+}
+
+.jdl-brg{
+display: block;
+font-size:14px;
+height:30px;
+margin-bottom:10px;
+font-family:"Comic Sans MS";
+}
+
+.jam {
+	background-color: #fff;
+	padding: 21px;
+	margin: 10px;
+	border: 1px solid #a9aaaa;
+	float: left;
+}
+.input{
+	margin-left: 25px;
+	font-size:12px;
+	background: #e3e3e3;
+	border:1pt solid #a9aaaa;
+	padding: 7px;
+	margin: 1px;
+	
+}
+.spacer {
+	clear: left;
+	height: 18px;
+}
+.pic {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #000000;
+}
+.section_box {
+	margin: 10px;
+	padding: 10px;
+	border: 1px dashed #CCCCCC;
+	background: #F2F2F2;
+}
+.section_box2 {
+	clear: left;
+	margin-top: 10px;
+	background: #F6F6F6;
+	color: #000000;
+}
+.text_area {
+	padding: 10px;
+}
+.publish_date {
+	clear: both;
+	margin-top: 10px;
+	color: #999999;
+	font-size: 11px;
+	font-weight: bold;
+}
+.title {
+	padding-bottom: 12px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0066CC;
+}
+.judul {
+	padding-bottom: 12px;
+	padding-top: 12px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0066CC;
+	border-bottom:1px dashed #000;
+}
+.subtitle {
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #000;
+	border: 1px solid #a9aaaa;
+	padding: 6px 6px 6px 14px;
+}
+.post_title {
+	padding: 6px;
+	padding-left: 10px;
+	background: #bbbbbb;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 10px;
+}
+.menu {
+	list-style-type: none;
+	margin: 10px;
+	margin-top: 0px;
+	padding: 0px;
+	width: 195px;
+}
+.menu li a{
+	background: #F4F4F4 url(images/button_default.gif) no-repeat;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+	display: block;
+	width: 215px;
+	margin-bottom: 2px;
+	padding: 5px;
+	padding-left: 12px;
+	text-decoration: none;
+}
+* html .menu li a{ 
+	width: 190px;
+}
+.menu li a:hover{
+	background: #EEEEEE url(images/button_active.gif) no-repeat;
+	color: #FF3333;
+}
+
+.widget_kanan {
+	list-style-type: none;
+	margin: 10px;
+	margin-top: 0px;
+	padding: 0px;
+	width: 235px;
+}
+.widget_kanan li a{
+	background: #F4F4F4;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+	display: block;
+	width: auto;
+	margin-bottom: -6px;
+	padding: 5px;
+	padding-left: 12px;
+	text-decoration: none;
+}
+* html .widget_kanan li a{ 
+	width: 190px;
+}
+.widget_kanan li a:hover{
+	background: #EEEEEE;
+	color: #FF3333;
+}
