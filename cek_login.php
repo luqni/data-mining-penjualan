@@ -1,7 +1,7 @@
 <?php
 include "config/koneksi.php";
-$pass=md5($_POST[password]);
-$level=$_POST[level];
+$pass=md5($_POST['password']);
+$level=$_POST['level'];
 if ($level=='manager')
 {
 $login=mysql_query("SELECT * FROM manager
